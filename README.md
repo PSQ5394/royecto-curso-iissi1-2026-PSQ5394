@@ -17,10 +17,22 @@ El objetivo del proyecto es diseñar un sistema de información centrado en la g
 
 Alcance: Gestión de inventario físico, pedidos a proveedores, recepción de mercancía, ventas en caja y ajustes de mermas. No se incluye integración con tienda online.
 
+### 1.2 Actores del sistema
+
+- Internos (usuarios y roles):
+    - Empleado: registra compras a proveedores, ventas en caja, y ajustes de inventario (mermas/caducidad).
+- Externos:
+    - Proveedor: suministra la mercancía (frescos, envasados, limpieza).
+    - Cliente: realiza las compras en el establecimiento.
+
+### 1.3 Localizaciones
+
+Tienda física con mostrados y estanterías, y un pequeño almacén en el mismo local.
 
 ## 2. Glosario de términos
 
-- Términos específicos del dominio del problema, ordenados alfabéticamente. Se valorará la presencia de información multimedia.
+<img width="562" height="482" alt="image" src="https://github.com/user-attachments/assets/710c0675-f68c-4ee8-bf12-c55cdcdb2c49" />
+
 
 ## 3. Visión general del sistema
 
