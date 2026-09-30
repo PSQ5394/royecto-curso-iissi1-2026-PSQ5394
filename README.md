@@ -338,10 +338,6 @@ Como empleado del supermercado
 quiero que el acceso al sistema se realice mediante usuario (email) y contraseña
 para garantizar que solo los empleados con permisos puedan dar de alta productos, cobrar en caja o registrar mermas.
 
-**R.N.F. 02. Precisión en cálculos de pesaje y moneda**
-Como empleado del supermercado
-quiero que el sistema opere con precisión decimal tanto en importes monetarios como en cantidades de productos a granel
-para evitar descuadres de céntimos en caja o errores de gramos en el stock de frescos.
 
 -- fin entregable 1 --
 
