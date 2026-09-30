@@ -9,7 +9,7 @@
 
 ## 1. Introducción al problema
 
-# 1.1 Descripción general
+### 1.1 Descripción general
 
 Supermercado La Guadaíra es un establecimiento de alimentación local. Actualmente, la gestión del inventario físico se realiza a papel y manualmente a ordenador en hojas de cálculo básicas, lo que provoca descuadres entre el stock real y el registrado, pérdida económica por productos caducados que no se detectan a tiempo y falta de agilidad en la reposición.
 
