@@ -2,14 +2,21 @@
 
 ## Miembros del grupo LX-XXX-X (sustituir)
 
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
+1. López Molina, Eva
+2. María
+3. Fernando
+4. Samuel
 
 ## 1. Introducción al problema
 
-- Descripción del problema para poner en contexto el proyecto, incluyendo información sobre los clientes y usuarios, la situación actual, problemas, expectativas, etc. Se valorará la presencia de información multimedia (fotos, gráficos, documentos escaneados, etc.).
+# 1.1 Descripción general
+
+Supermercado La Guadaíra es un establecimiento de alimentación local. Actualmente, la gestión del inventario físico se realiza a papel y manualmente a ordenador en hojas de cálculo básicas, lo que provoca descuadres entre el stock real y el registrado, pérdida económica por productos caducados que no se detectan a tiempo y falta de agilidad en la reposición.
+
+El objetivo del proyecto es diseñar un sistema de información centrado en la gestión del inventario que permita registrar entradas y salidas, manejar los distintos productos y facilitar la reposición y compra.
+
+Alcance: Gestión de inventario físico, pedidos a proveedores, recepción de mercancía, ventas en caja y ajustes de mermas. No se incluye integración con tienda online.
+
 
 ## 2. Glosario de términos
 
