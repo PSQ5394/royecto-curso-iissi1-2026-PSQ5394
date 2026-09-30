@@ -1,11 +1,11 @@
-# Título Proyecto
+# Supermercado La Guadaíra
 
-## Miembros del grupo LX-XXX-X (sustituir)
+## Miembros del grupo
 
 1. López Molina, Eva
-2. María
+2. Cerezo Berruezo, María
 3. Fernando
-4. Samuel
+4. Delgado Gómez, Samuel
 
 ## 1. Introducción al problema
 
@@ -47,15 +47,12 @@ Tienda física con mostrados y estanterías, y un pequeño almacén en el mismo 
 #### R.F.01. Gestión de catálogo de productos
 
 Como empleado del supermercado
-quiero registrar el alta, baja y modificación de productos indicando si son perecederos y su tipo de venta (unidad o granel)
+quiero registrar el alta, baja y modificación de productos indicando si son perecederos y su tipo de venta (unidad o granel).
 para mantener el catálogo del supermercado actualizado.
 
 **Prueba de aceptación**
 - Se comprueba que el nuevo producto queda registrado con su código de barras, nombre, precio, categoría, stock mínimo, stock actual, indicador de perecedero y tipo de venta.
 - Se verifica que el sistema no permite modificar el código de barras de un producto una vez dado de alta.
-- Se debe aplicar la regla de negocio R.N.04.
-- Se debe aplicar la regla de negocio R.N.05.
-- Se debe aplicar la regla de negocio R.N.09.
 
 #### R.F.02. Registro de compras y entradas de mercancía
 
@@ -66,8 +63,6 @@ para aumentar el inventario disponible al recibir mercancía en el almacén.
 **Prueba de aceptación**
 - Se comprueba que al confirmar una línea de compra, el `stockActual` del producto se incrementa exactamente en la cantidad o peso recibido.
 - Se verifica que la compra queda asociada a un empleado registrado y a un proveedor válido con su fecha y hora.
-- Se debe aplicar la regla de negocio R.N.05.
-- Se debe aplicar la regla de negocio R.N.10.
 
 #### R.F.03. Paso por caja y registro de ventas
 
@@ -78,10 +73,6 @@ para reflejar las salidas reales de mercancía en el momento del cobro.
 **Prueba de aceptación**
 - Se comprueba que al confirmar la venta, el `stockActual` de cada artículo incluido en el ticket disminuye en la cantidad o peso vendido.
 - Se verifica que el sistema permite introducir decimales si el producto es de tipo "Granel" y exige números enteros si es de tipo "Unidad".
-- Se debe aplicar la regla de negocio R.N.07.
-- Se debe aplicar la regla de negocio R.N.08.
-- Se debe aplicar la regla de negocio R.N.10.
-- Se debe aplicar la regla de negocio R.N.11.
 
 #### R.F.04. Registro de mermas y ajustes de inventario
 
@@ -92,9 +83,6 @@ para descontar las pérdidas y cuadrar el inventario físico con el registrado e
 **Prueba de aceptación**
 - Se comprueba que el ajuste queda registrado con su fecha, tipo de merma, motivo, empleado responsable, producto y cantidad.
 - Se verifica que el `stockActual` del producto se actualiza automáticamente tras registrar la merma o el recuento.
-- Se debe aplicar la regla de negocio R.N.06.
-- Se debe aplicar la regla de negocio R.N.08.
-- Se debe aplicar la regla de negocio R.N.10.
 
 #### R.F.05. Listado de productos con stock bajo
 
@@ -166,10 +154,6 @@ para mantener controlados los accesos al sistema y los actores vinculados a las 
 
 **Prueba de aceptación**
 - Se comprueba que el usuario se registra con sus datos personales y el rol asignado correctamente.
-- Se debe aplicar la regla de negocio R.N.01.
-- Se debe aplicar la regla de negocio R.N.02.
-- Se debe aplicar la regla de negocio R.N.03.
-- Se debe aplicar la regla de negocio R.N.12.
 
 ---
 
@@ -360,7 +344,7 @@ quiero que el sistema opere con precisión decimal tanto en importes monetarios 
 para evitar descuadres de céntimos en caja o errores de gramos en el stock de frescos.
 
 -- fin entregable 1 --
--- fin entregable 1 --
+
 
 ## 5. Modelo conceptual
 
