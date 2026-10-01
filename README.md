@@ -4,7 +4,7 @@
 
 1. López Molina, Eva
 2. Cerezo Berruezo, María
-3. Martiín Luna, Fernando
+3. Martín Luna, Fernando
 4. Delgado Gómez, Samuel
 
 ## 1. Introducción al problema
